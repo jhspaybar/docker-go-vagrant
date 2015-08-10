@@ -11,8 +11,8 @@ source $HOME/.profile
 # Install godep
 go get github.com/tools/godep
 
-# Create user workspace
-mkdir -p $HOME/go/src/github.com/jhspaybar
+# Create workspace
+mkdir -p $HOME/go/src/github.com
 
 # Setup vim with pathogen
 mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
